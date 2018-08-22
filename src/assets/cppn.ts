@@ -130,9 +130,9 @@ export class CPPN {
     lastOutput.dispose()
     lastOutput = null
     await dl.nextFrame()
-    setTimeout(() => {
+    // setTimeout(() => {
       this.runInferenceLoop()
-    }, 20)
+    // }, 20)
   }
 
   stopInferenceLoop() {
